@@ -37,7 +37,7 @@
 				<div id="innerContent">
 				<h1>Kompetenz</h1>
 					<p><script>alert(‘XSS attack’)</script>
-						<?php phpinfo();?>
+						<?php phpinfo();?> haha
 						UNSER breites Spektrum an Technologien macht uns zu einem bevorzugten Partner in Sachen 
 					Planung und Produktion. Mit unserer langjährigen Erfahrung beim Schmieden, 
 					Bearbeiten und im Bereich der Materialtechnologie helfen wir unseren Kunden, 
