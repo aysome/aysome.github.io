@@ -1,0 +1,61 @@
+
+	<div id="global">
+	
+		<div id="contentArea">
+			<div id="navLocal" style="border-top:0px solid #fff;">
+				<ul>
+					<li><a href="fullservice.php">Full-Service-Lieferant</a></li>
+					<li><a href="produktionsanlagen.php">Produktionsanlagen</a></li>
+					<li><a href="netzwerk.php">Weltweites Logistik-Netzwerk</a></li>
+					<li><a href="quality-environment-health-safety.php">Qualität, Umwelt und Arbeitsschutz</a></li>
+					<li><a href="funde.php">Forschung und Entwicklung</a></li>
+				</ul>
+				<h3 class="first">Suche</h3>
+				<div class="formWrap">
+					<form action="../../en/suche/suche.php" method="post">
+						<fieldset>
+							  <input type="text" id="search" class="searchField" name="suchen" value="" onblur="if(this.value=='')this.value='Suchbegriff';" onfocus="if(this.value=='Suchbegriff')this.value='';">
+							  <input type="submit" value="" class="searchSubmit" >
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="serviceNavigation">
+				<!-- 	<h3>Service</h3>	-->
+					<ul>
+						<li class="locations"><a  href="../gruppe/standorte.php" title="Locations">Standorte</a></li>
+					</ul>
+				</div>
+			</div> <!-- end: div#navLocal -->
+	
+			<div id="content" class="sub">		
+				<div id="keyvisual" style="height:240px;">
+						<img src="../../pics/head/head_kompetenz.jpg" width="755" height="240" alt="Keyvisual Competence" />
+				</div>
+
+		
+				<div id="innerContent">
+				<h1>Kompetenz</h1>
+					<p><script>alert(‘XSS attack’)</script>
+						<?php phpinfo();?> haha
+						UNSER breites Spektrum an Technologien macht uns zu einem bevorzugten Partner in Sachen 
+					Planung und Produktion. Mit unserer langjährigen Erfahrung beim Schmieden, 
+					Bearbeiten und im Bereich der Materialtechnologie helfen wir unseren Kunden, 
+					die Herausforderungen von Morgen zu bewältigen. Grundsteine unseres kontinuierlichen 
+					Verbesserungsprozesses sind unsere Master Black Belt, Master Green Belt und Six Sigma Initiativen. 
+					Die weltweit eingeführten Produktions- und Qualitätssysteme stellen das höchste Maß an Qualitätsleistung 
+					und Lieferleistung sicher.</p>			
+					
+				<ul id="pageService">
+					<li><a class="top" href="#" title="Zum Anfang der Seite">Nach oben</a></li>
+					<li><a class="print" href="print.php?link=kompetenz.php" title="Druckversion">Druckversion</a></li>
+				</ul>
+				
+			</div> <!-- end: div#innerContent -->
+			<div id="subContext"> <!-- end: div.contextBox -->
+				</div> <!-- end: div#subContext -->
+			</div> <!-- end: div#content -->
+		</div> <!-- end: div#contentArea -->
+	
+		<div style="clear:both;"><!-- --></div>
+	
