@@ -1,46 +1,4 @@
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title> Forging Group - Kompetenz</title>
-	
-		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-		<meta http-equiv="content-script-type" content="text/javascript" />
-		<meta http-equiv="content-style-type" content="text/css" />
-		<meta http-equiv="content-language" content="de" />
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/default.css" />
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/grid.css" />
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/typo.css" />
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/components.css" />
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/weltkarte.css" />
-		
-		<!-- Attribut "Print" für die Druckausgabe -->
-		<link type="text/css" rel="stylesheet" href="../../lib/css/print.css" media="print" />
-		
-		<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script type="text/javascript" src="../../lib/js/jquery.cycle.all.min.js"></script>
-		
-		<script src="../../lib/js/world_query.js"></script>	
-		
-		<!-- sliderman.js -->
-		<script type="text/javascript" src="../../lib/js/sliderman.js"></script>
-		<link rel="stylesheet" type="text/css" href="../../lib/css/sliderman.css" />
-		<!-- /sliderman.js -->
-		
-		
-		
-		<!-- css für newstyle -->
-		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/newstyle.css" />
-		<!-- js für newstyle -->
-		<script src="../../lib/js/language_switch.js" type="text/javascript"></script> 
-		<script src="../../lib/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-		<script src="../../lib/js/shadowbox.js" type="text/javascript"></script>
-				
-		<!-- js für sprachenwechsel 	-->
-		<script src="../../lib/js/lang.js"></script>
-		
-</head>
 
 <body id="index" onload="initialize()">
 <div id="center">
