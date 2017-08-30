@@ -59,3 +59,45 @@
 	
 		<div style="clear:both;"><!-- --></div>
 	
+	
+<div style="clear:both;"><!-- --></div>
+
+<div id="newFooter">
+
+        <div class="block">
+          <ul>
+            <li><a href="../suche/suche.php" title="Website durchsuchen"  >Suche</a></li>
+			<li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/en/')" >English</a></li><li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/pt/')" >Português</a></li>
+          </ul>
+        </div>
+   </div>
+   
+	<div class="social">
+        <p class="sheadline"><a href="http://www..com/de/" target="_blank"> AG</a></p>       
+        <p class="subline"></p>    
+
+        <div> 
+			
+        </div>        
+    </div>
+    
+</div>
+
+<div id="metainfo">
+  <div class="copyright">Copyright by  Forging Group &copy; 2020  </div>
+  <div class="info">
+    <ul class="links">
+      <li><a href="../kontakt/sitemap.php">Sitemap</a></li>
+      <li><a href="../kontakt/impressum.php">Impressum / Rechtliche Hinweise</a></li>
+    </ul>
+  </div>
+</div>
+
+	</div> 
+	<!-- end: div#global -->
+	
+	<!-- <div id="shadowBottom"></div>	 -->
+	
+</div> <!-- end: div#center -->
+</body>
+</html>
