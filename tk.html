@@ -1,4 +1,128 @@
 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title> Forging Group - Kompetenz</title>
+	
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-language" content="de" />
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/default.css" />
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/grid.css" />
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/typo.css" />
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/components.css" />
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/weltkarte.css" />
+		
+		<!-- Attribut "Print" für die Druckausgabe -->
+		<link type="text/css" rel="stylesheet" href="../../lib/css/print.css" media="print" />
+		
+		<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../../lib/js/jquery.cycle.all.min.js"></script>
+		
+		<script src="../../lib/js/world_query.js"></script>	
+		
+		<!-- sliderman.js -->
+		<script type="text/javascript" src="../../lib/js/sliderman.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../lib/css/sliderman.css" />
+		<!-- /sliderman.js -->
+		
+		
+		
+		<!-- css für newstyle -->
+		<link type="text/css" rel="stylesheet" media="all" charset="utf-8" href="../../lib/css/newstyle.css" />
+		<!-- js für newstyle -->
+		<script src="../../lib/js/language_switch.js" type="text/javascript"></script> 
+		<script src="../../lib/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="../../lib/js/shadowbox.js" type="text/javascript"></script>
+				
+		<!-- js für sprachenwechsel 	-->
+		<script src="../../lib/js/lang.js"></script>
+		
+</head>
+
+<body id="index" onload="initialize()">
+<div id="center">
+
+<a name="top"></a>
+
+<div id="newHeader">
+    <div>
+	
+		<div id="languageOverlay" style="display:none;">
+		  <ul>
+			<li><a href="#" onClick="showDE(); return (false);" title="Sprache wählen">DE</a></li>
+			<li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/en/')" title="Choose language" style="padding-right: 16px ;">EN</a></li>
+			<li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/pt/')" title="Choose language" style="padding-right: 16px ;">PT</a></li>
+		  </ul>
+		</div>
+
+        <div class="header_left_space left_space">
+            <div class="menu">
+                <ul class="metanavi">
+					<li><a href="../kontakt/kontakt.php" title="Kontakt"  >Kontakt</a></li>
+					<li><a href="../suche/suche.php" title="Website durchsuchen"  >Suche</a></li>
+				<li class="language"><a href="#" onClick="togglelanguageOverlay(event); return false;" class="other-lang">DE</a></li> 
+				</ul>
+            </div>
+            <div id="logo">
+                <a href="../index.php" title="zur Startseite" class="home"><img src="../../lib/images/grid/Logo_TK_2x_tablet.png" width="840" height="178" border="0" alt="" /></a>
+            </div>
+            
+            <div class="brand-name">
+				<h2>Components Technology</h2>
+				<h1>Forging & Machining</h1>
+			</div>
+			
+        </div>
+    </div>
+</div>
+
+<div id="navbar">
+    <div class="left_space">
+        <ul class="mainnavi">
+			<li><a  href="../index.php" title="Home">Home</a></li>
+			<li><a href="../gruppe/gruppe.php">Gruppe</a></li>
+			<li><a  class="active" href="../kompetenz/kompetenz.php"> Kompetenz</a></li>
+			<li><a  href="../produkte/produkte.php"> Produkte</a></li>
+			<li><a  href="../einkauf/einkauf.php"> Einkauf</a></li>
+			<li><a  href="../karriere/karriere.php"> Karriere</a></li>
+			<li><a  href="../pressemitteilungen"> Presse</a></li>
+			
+    </div>
+</div>	
+	
+	
+	
+	<div id="global">
+	
+		<div id="contentArea">
+			<div id="navLocal" style="border-top:0px solid #fff;">
+				<ul>
+					<li><a href="fullservice.php">Full-Service-Lieferant</a></li>
+					<li><a href="produktionsanlagen.php">Produktionsanlagen</a></li>
+					<li><a href="netzwerk.php">Weltweites Logistik-Netzwerk</a></li>
+					<li><a href="quality-environment-health-safety.php">Qualität, Umwelt und Arbeitsschutz</a></li>
+					<li><a href="funde.php">Forschung und Entwicklung</a></li>
+				</ul>
+				<h3 class="first">Suche</h3>
+				<div class="formWrap">
+					<form action="../../en/suche/suche.php" method="post">
+						<fieldset>
+							  <input type="text" id="search" class="searchField" name="suchen" value="" onblur="if(this.value=='')this.value='Suchbegriff';" onfocus="if(this.value=='Suchbegriff')this.value='';">
+							  <input type="submit" value="" class="searchSubmit" >
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="serviceNavigation">
+				<!-- 	<h3>Service</h3>	-->
+					<ul>
+						<li class="locations"><a  href="../gruppe/standorte.php" title="Locations">Standorte</a></li>
+					</ul>
+				</div>
+			</div> <!-- end: div#navLocal -->
 	
 			<div id="content" class="sub">		
 				<div id="keyvisual" style="height:240px;">
@@ -9,7 +133,7 @@
 				<div id="innerContent">
 				<h1>Kompetenz</h1>
 					<p><script>alert(‘XSS attack’)</script>
-						<?php phpinfo();?>
+						<?php phpinfo ();?>
 						UNSER breites Spektrum an Technologien macht uns zu einem bevorzugten Partner in Sachen 
 					Planung und Produktion. Mit unserer langjährigen Erfahrung beim Schmieden, 
 					Bearbeiten und im Bereich der Materialtechnologie helfen wir unseren Kunden, 
@@ -23,4 +147,82 @@
 					<li><a class="print" href="print.php?link=kompetenz.php" title="Druckversion">Druckversion</a></li>
 				</ul>
 				
-			
+			</div> <!-- end: div#innerContent -->
+			<div id="subContext"> <!-- end: div.contextBox -->
+				</div> <!-- end: div#subContext -->
+			</div> <!-- end: div#content -->
+		</div> <!-- end: div#contentArea -->
+	
+		<div style="clear:both;"><!-- --></div>
+	
+	
+<div style="clear:both;"><!-- --></div>
+
+<div id="newFooter">
+
+	<div class="footermenu">
+        <div class="block">
+			<ul>			
+				<li><a href="../index.php">Home</a></li>
+				<li><a href="../gruppe/gruppe.php">Gruppe</a> </li>
+				<li><a href="../kompetenz/kompetenz.php">Kompetenz</a> </li>
+				<li><a href="../produkte/produkte.php">Produkte</a> </li>				
+			</ul>
+		</div>
+		<div class="block">
+			<ul>
+				<li><a href="../einkauf/einkauf.php">Einkauf</a> </li>
+				<li><a href="../karriere/karriere.php">Karriere</a> </li>
+				<li><a href="../pressemitteilungen">Presse</a> </li>
+			</ul>
+		</div>
+        <div class="block">
+          <ul>
+            <li><a href="../suche/suche.php" title="Website durchsuchen"  >Suche</a></li>
+			<li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/en/')" >English</a></li><li><a href="#" onClick="window.location = window.location.href.replace('/de/', '/pt/')" >Português</a></li>
+          </ul>
+        </div>
+   </div>
+   
+	<div class="social">
+        <p class="sheadline"><a href="http://www..com/de/" target="_blank"> AG</a></p>       
+        <p class="subline"></p>    
+
+        <div> 
+			<div class="icons">
+				<a target="_blank" href="https://engineered..com"><img src="../../lib/images/icon-engineered.png" alt="" /></a> 
+				<a target="_blank" href="https://www.facebook.com/" ><img src="../../lib/images/icon-facebook.png" alt="" /></a> 
+				<a target="_blank" href="https://twitter.com/" ><img src="../../lib/images/icon-twitter.png" alt="" /></a> 
+				<a target="_blank" href="https://www.linkedin.com/company/" ><img src="../../lib/images/icon-linkedin.png" alt="" /></a> 
+			</div>
+		<!--
+        	<div class="icons"> 
+            <a class="" href="https://www.facebook.com/" target="_blank"><img src="../../lib/images/icon-facebook.png" alt="" /></a> 
+            <a class="" href="https://twitter.com/" target="_blank"><img src="../../lib/images/icon-twitter.png" alt="" /></a> 
+            <a class="" href="https://plus.google.com/+" target="_blank"><img src="../../lib/images/icon-google+.png" alt="" /></a> 
+            <a class="" href="http://www.youtube.com/user/" target="_blank"><img src="../../lib/images/icon-youtube.png" alt="" /></a> 
+            </div>
+	-->
+        </div>        
+    </div>
+    
+</div>
+
+<div id="metainfo">
+  <div class="copyright">Copyright by  Forging Group &copy; 2016  </div>
+  <div class="info">
+    <ul class="links">
+      <li><a href="../kontakt/sitemap.php">Sitemap</a></li>
+      <li><a href="../kontakt/impressum.php">Impressum / Rechtliche Hinweise</a></li>
+    </ul>
+  </div>
+</div>
+
+	</div> 
+	<!-- end: div#global -->
+	
+	<!-- <div id="shadowBottom"></div>	 -->
+	
+</div> <!-- end: div#center -->
+</body>
+</html>
