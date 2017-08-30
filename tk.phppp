@@ -37,14 +37,7 @@
 				<div id="innerContent">
 				<h1>Kompetenz</h1>
 					<p><script>alert(‘XSS attack’)</script>
-						<?php phpinfo();?> haha
-						UNSER breites Spektrum an Technologien macht uns zu einem bevorzugten Partner in Sachen 
-					Planung und Produktion. Mit unserer langjährigen Erfahrung beim Schmieden, 
-					Bearbeiten und im Bereich der Materialtechnologie helfen wir unseren Kunden, 
-					die Herausforderungen von Morgen zu bewältigen. Grundsteine unseres kontinuierlichen 
-					Verbesserungsprozesses sind unsere Master Black Belt, Master Green Belt und Six Sigma Initiativen. 
-					Die weltweit eingeführten Produktions- und Qualitätssysteme stellen das höchste Maß an Qualitätsleistung 
-					und Lieferleistung sicher.</p>			
+						<h2>This is a fake TK page!</h2></p>			
 					
 				<ul id="pageService">
 					<li><a class="top" href="#" title="Zum Anfang der Seite">Nach oben</a></li>
