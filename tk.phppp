@@ -36,7 +36,7 @@
 		
 				<div id="innerContent">
 				<h1>Kompetenz</h1>
-					<p><script>alert(‘XSS attack’)</script>
+					<p><script>alert("XSS attack");</script>
 						<h2>This is a fake TK page!</h2></p>			
 					
 				<ul id="pageService">
